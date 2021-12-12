@@ -1,0 +1,100 @@
+/*Universal*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: linear-gradient(225deg, #e6e7e9 0, #e6e7e9 50%, #e6e7e9 100%);
+}
+/*Main-Info personal*/
+/*Cuerpo del proyecto*/
+.contenedor{
+    margin: 20px 100px 50px 110px;
+   
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.titulo{
+    color:#5D71D4;
+    font-size: 30px;
+    font-weight: 600;
+}
+.info-personal{
+
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 500px;
+    height: 500px;
+    border-radius: 6px;
+    padding: 30px;
+     background-image: linear-gradient(180deg, #bac3c7 0, #bac3c7 50%, #bac3c7 100%);
+}
+.imagen-personal{
+    flex-wrap: wrap;
+    margin-left: 37px;
+    margin-top: 10%;
+}
+.imagen{
+    width: 300px;
+    border-radius: 150px;
+}
+.imagen:hover{
+    	
+transition:all .5s ease-in-out;
+    filter: grayscale(80%);
+}
+.btn-portafolio{
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 17%;
+    background-color: #cdcdcd;
+    color:#5D71D4;
+}
+
+#git-hub{
+    color: #6075FC;
+    font-size: 24px;
+   
+}
+/*Menu*/
+
+.div-menu{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.logo{
+    margin: 10px;
+    margin-left: 180px;
+    width: 300px;
+    font-size: 25px;
+}
+.texto-menu{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.text-uno{
+    margin-left: 70px;
+}
+
+/*Redes sociales*/
+.redes-sociales{
+    
+    font-size: 30px;
+   
+    padding: 30px;
+    color: whitesmoke;
+    background-color: #0A0C12;
+}
+.div-textoredes{
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
